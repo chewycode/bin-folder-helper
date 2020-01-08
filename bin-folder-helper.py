@@ -24,6 +24,6 @@ with open(home_dir + '/.bashrc') as f:
         answer = input(bin_dir + ' has not been added to $PATH. Would you like to add it? y/n\n')
         if answer == 'y' or 'Y':
             with open(home_dir + '/.bashrc', 'a') as bashrc_file:
-                bashrc_file.write('PATH=$PATH:' + bin_dir)
+                bashrc_file.write(string)
         else:
             pass
