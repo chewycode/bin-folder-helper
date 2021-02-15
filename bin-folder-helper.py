@@ -1,7 +1,7 @@
 import os
 
 home_dir = os.environ['HOME']
-bin_dir = home_dir + '/.bin'
+bin_dir = home_dir + '/bin'
 string = 'PATH=$PATH:' + bin_dir
 
 # check to see if folder $HOME/.bin exists, if not, create one
